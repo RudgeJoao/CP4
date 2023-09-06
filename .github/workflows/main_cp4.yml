@@ -48,4 +48,4 @@ jobs:
         app-name: 'cp4'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1b6167bebe594b0192b78fccea14e111 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_c33f1104a77d4379b41b944e033aae3c }}/cp4:${{ github.sha }}'
+        images: 'index.docker.io/rudgejoao/cp4'

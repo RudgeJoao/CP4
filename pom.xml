@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.github.acnaweb</groupId>
 	<artifactId>study-api</artifactId>
+	<packaging>jar</packaging>
 	<version>1.0</version>
 	<name>study-api</name>
 	<description>Aplicação de estudo de API com Spring</description>
@@ -62,6 +63,7 @@
 
 	</dependencies>
 	<build>
+		<finalName>cp4</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
